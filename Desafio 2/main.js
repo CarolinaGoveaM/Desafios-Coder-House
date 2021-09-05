@@ -7,7 +7,6 @@ if(nombre && apellido){
     alert("Error: Debe Ingresado su nombre y apellido");
 }
 
-
 let edad = parseInt(prompt("Ingrese su edad"));
 
 if(edad >= 18){
@@ -15,7 +14,6 @@ if(edad >= 18){
 } else{
     alert("Su edad es " + edad + "\nEs menor de edad");
 }
-
 
 let compraMinima = parseInt(prompt("Ingrese monto mínimo"));
 let compraMaxima = parseInt(prompt("Ingrese monto máximo"));
