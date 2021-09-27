@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(231, 203, 224);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 10px double black;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 30px;
+  display: inline-block;
+  border-bottom: 2px solid black;
+}
+
+p:hover {
+  color: rgb(102, 50, 90);
+}
